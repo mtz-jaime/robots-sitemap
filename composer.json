@@ -1,0 +1,24 @@
+{
+    "name": "mtz-jaime/robots-sitemap",
+    "description": "Robots and sitemap generator package for laravel",
+    "keywords": ["robots", "sitemap", "laravel"],
+    "authors": [
+        {
+            "name": "Jaime Martinez",
+            "email": "ring-ring@call-jimmy.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload":{
+        "psr-4": {
+            "MtzJaime\\RobotsSitemap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MtzJaime\\RobotsSitemap\\RobotsSitemapServiceProvider"
+            ]
+        }
+    }
+}
